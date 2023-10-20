@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    height: 1800px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+}

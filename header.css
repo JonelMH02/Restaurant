@@ -1,0 +1,41 @@
+header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: solid;
+    border-color: white;
+    z-index: 100;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    
+    flex: 2;
+    
+}
+.sanji-pic {
+    width: 200px;
+}
+.right-side {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    font-size: 22px;
+    margin-right: 50px;
+    color: white;
+}
+.top-buttons {
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    justify-content: center;
+    transition: .8s;
+    
+}
